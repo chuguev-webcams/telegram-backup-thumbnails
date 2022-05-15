@@ -1,5 +1,5 @@
 const cron = require("node-cron");
-const bot3 = new Telegraf("5315774518:AAEn7ZegEpSdf9f29N0LUsepd1MNoBhEfRI", {
+const bot3 = new Telegraf(process.env.TOKEN, {
   channelMode: true
 });
 
