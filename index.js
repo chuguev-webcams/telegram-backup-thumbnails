@@ -55,16 +55,6 @@ function send() {
           url: "https://www.chuguev.net/video/shot/camera12.jpg",
           filename: "camera12.png"
         }
-      },
-      {
-        type: "document",
-        caption:
-          "#camera4 " +
-          new Date().toLocaleString("ru-RU", { timeZone: "Europe/Moscow" }),
-        media: {
-          url: "https://www.chuguev.net/video/shot/camera4.jpg",
-          filename: "camera4.png"
-        }
       }
     ])
     .then((result) => {
